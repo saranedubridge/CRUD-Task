@@ -38,7 +38,7 @@ export function Editform({ setediting, updateUser, currentuserdata }) {
     <div className='editbox' >
 
       <div>
-        <h1 className='text-center text-white ' >EDITUSER</h1>
+        <h1 className='text-center text-black ' >EDITUSER</h1>
       </div>
 
       <form onSubmit={event => {
