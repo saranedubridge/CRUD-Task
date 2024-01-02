@@ -36,6 +36,7 @@ export function AddForm({ adduser }) {
                     onChange={handleChange}
                     type="text"
                     id="name"
+                    placeholder='Enter your name...'
                   />
                 </div>
                 <div className="mb-3">
@@ -49,6 +50,7 @@ export function AddForm({ adduser }) {
                     onChange={handleChange}
                     type="email"
                     id="email"
+                    placeholder='Enter your Email...'
                   />
                 </div>
                 <div className="mb-3">
@@ -62,6 +64,7 @@ export function AddForm({ adduser }) {
                     onChange={handleChange}
                     type="text"
                     id="location"
+                    placeholder='Enter your location .....'
                   />
                 </div>
                 <div className="d-grid">

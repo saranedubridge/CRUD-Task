@@ -51,14 +51,14 @@ export function Editform({ setediting, updateUser, currentuserdata }) {
 
         <div className="mb-3">
         <label className='form-label' htmlFor="Name">Name</label><br />
-        <input className='form-control' value={user.name} name='name' onChange={handleChage} type="text" id='Name' /><br />
+        <input className='form-control' placeholder='Edit your name...' value={user.name} name='name' onChange={handleChage} type="text" id='Name' /><br />
 
         </div>
 
 
         <div className="mb-3">
         <label className='form-lable' htmlFor="email">Email</label><br />
-        <input className='form-control' value={user.email} name='email' onChange={handleChage} type="email" id='email' /><br />
+        <input className='form-control'placeholder='Edit your email...' value={user.email} name='email' onChange={handleChage} type="email" id='email' /><br />
 
 
         </div>
@@ -66,7 +66,7 @@ export function Editform({ setediting, updateUser, currentuserdata }) {
 
         <div className="mb-3">
         <label className='form-label' htmlFor="location">Location</label><br />
-        <input className='form-control' value={user.location} name='location' onChange={handleChage} type="text" id='Name' /><br />
+        <input className='form-control' placeholder='Edit your Location...' value={user.location} name='location' onChange={handleChage} type="text" id='Name' /><br />
 
 
         </div>
