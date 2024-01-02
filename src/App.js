@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Tablecontainer } from './Tablecontainer'
 import { AddForm } from './AddForm'
 import { Editform } from './EditForm'
-import './app.css'
+import './css/App.css'
 
 
 function App() {
